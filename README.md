@@ -22,7 +22,7 @@ GET /predict
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `context` | `string` | **Required**. Text input which you want a smart reply to. |
-| `ilust` | `boolean` | **Required**. Boolean input to indicate if the `I` based rule should be turned on.
+| `ilist` | `boolean` | **Required**. Boolean input to indicate if the `I` based rule should be turned on.
 | `polite` | `boolean` | **Required**. Boolean input to indicate if the politeness based rule should be turned on.
 | `impolite` | `boolean` | **Required**. Boolean input to indicate if the impoliteness based rule should be turned on.
 
