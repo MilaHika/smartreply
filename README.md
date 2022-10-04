@@ -35,7 +35,7 @@ suggest(context, tokenizer, model, idx2phr, ilist=False, polite=False, impolite=
 ## **Predict** | API Reponse
 The API end point returns in json format where the keys are defined to be the string replies predicted by the smart reply model. The first value is specified to be the prediction probabilities and the second value is specified to be the politness or 
 impolitness scored which is calculated based on use of mediating words, profanities, 
-and length/curtness of response. If response does not use the rule-bassed approach 
+and length/curtness of response. If response does not use the rule-based approach 
 of politeness or impoliteness, the second value defaults to -1.
 
 ```json
